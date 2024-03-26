@@ -8,9 +8,19 @@
 
 .logo {
     font-family: var(--logo-font);
-    font-size: 30px;
+    font-size: 30px !important;
 }
 
 .light {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-link:hover {
     color: rgba(255, 255, 255, 1) !important;
 }

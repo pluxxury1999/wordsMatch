@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 footer {
     background-color: var(--main-color);
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -10,7 +10,7 @@ footer {
     font-size: 18px;
     color: white;
     text-align: center;
-    font-family: var(--main-font);
+    font-family: var(--main-font)!important;
     font-weight: 600;
     margin: 8px 0;
 }
