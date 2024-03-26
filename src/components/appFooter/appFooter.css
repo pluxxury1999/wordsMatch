@@ -1,0 +1,16 @@
+footer {
+    background-color: var(--main-color);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerText {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 600;
+    margin: 8px 0;
+}
